@@ -43,6 +43,7 @@
                         <th>Marca</th>
                         <th>Presentación</th>
                         <th>Categorías</th>
+                        <th>Stock</th>
                         <th>Estado</th>
                         <th>Acciones</th>
                     </tr>
@@ -70,6 +71,9 @@
                                 </div>
                             </div>
                             @endforeach
+                        </td>
+                        <td>
+                            {{$item->stock}}
                         </td>
                         <td>
                             @if ($item->estado == 1)
