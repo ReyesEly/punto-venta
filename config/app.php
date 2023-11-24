@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'Proyecto Analisis'),
 
     /*
     |--------------------------------------------------------------------------
@@ -54,9 +54,10 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'https://punto-venta-production.up.railway.app'),
 
-    'asset_url' => env('ASSET_URL'),
+    'asset_url' => env('ASSET_URL', 'https://puntoventa-production.up.railway.app'),
+    
 
     /*
     |--------------------------------------------------------------------------
