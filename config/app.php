@@ -56,7 +56,7 @@ return [
 
     'url' => env('APP_URL', 'https://punto-venta-production.up.railway.app'),
 
-    'asset_url' => env('ASSET_URL', 'https://puntoventa-production.up.railway.app'),
+    'asset_url' => env('ASSET_URL', 'https://punto-venta-production.up.railway.app'),
     
 
     /*
