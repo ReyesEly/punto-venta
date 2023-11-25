@@ -332,7 +332,7 @@
             if (nameProducto != '' && nameProducto != undefined && cantidad != '' && precioCompra != '' && precioVenta != '') {
 
                 // 2. Para que los valores ingresados sean los correctos
-                if (parseInt(cantidad) > 0 && (cantidad % 1 == 0) && parseFloat(precioCompra) > 0 && parseFloat( precioVenta) > 0 && precioVentaActual <= parseFloat(precioVenta)) {
+                if (parseInt(cantidad) > 0 && (cantidad % 1 == 0) && parseFloat(precioCompra) > 0 && parseFloat( precioVenta) > 0) {
 
                     // 3. Para que el precio de compra sea menor que el precio de venta
                     if (parseFloat(precioVenta) > parseFloat(precioCompra)) {
